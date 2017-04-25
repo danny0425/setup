@@ -12,7 +12,7 @@ configure({
   },
 
   ruby: {
-    install_path: '/c/ruby/200',
+    install_path: '/c/ruby/226',
   },
 
   mingw: {
