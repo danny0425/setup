@@ -96,7 +96,7 @@ The following is the setup that you WILL need to perform to configure all necess
 cd /c
 mkdir course
 cd course
-git clone https://github.com:trimble-april-2017/setup.git [enter]
+git clone https://github.com/trimble-april-2017/setup.git [enter]
 ```
 
 At the completion of the last command you should have a copy of this repository on your local machine.
