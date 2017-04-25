@@ -4,7 +4,7 @@
 
 ## Network Security Considerations
 
-* Make sure that you have access to port 443 for github ssh operations (have your network admins open this up for the week if necessary, to avoid any unecessary complications) 
+* Make sure that you have access to port 443 for github ssh operations (have your network admins open this up for the course if necessary, to avoid any unecessary complications) 
 
 ## Programs That Should Be Installed Prior to following these instructions
 
@@ -19,14 +19,14 @@
 
 # Required Setup
 
-The following is the setup that you WILL need to perform to configure all necessary prerequisites to be able to enjoy the week. If you have any questions, please do not hesitate to contact [me](mailto:jp@developwithpassion.com)
+The following is the setup that you WILL need to perform to configure all necessary prerequisites to be able to enjoy the course. If you have any questions, please do not hesitate to contact [me](mailto:jp@developwithpassion.com)
 
 ## Make sure that you have configured windows to show all hidden files and folders
 
 ## Create the utility folder
 
 1. Open up windows explorer and navigate to your C:\ drive
-2. Create a new folder at the root of C:\ called utils (all lowercase). All of the tools we will install for the week will go into here.
+2. Create a new folder at the root of C:\ called utils (all lowercase). All of the tools we will install for the course will go into here.
 
 ## Get setup at [Github](http://github.com)
 
@@ -151,7 +151,7 @@ thor setup
 
 This task will do the following:
 
-* Setup a sane ~/.gitconfig that contains the email you provided and your name, along with some other aliases and a setting that is essential for our work during the week.
+* Setup a sane ~/.gitconfig that contains the email you provided and your name, along with some other aliases and a setting that is essential for our work during the course.
 * Copies some basic bash dotfiles into your home folder, this correctly sets up the ssh agent to use the key you generated/provided earlier.
 * Configures the mingw path
 
@@ -177,7 +177,7 @@ ruby -v
 ```
 You should see a ruby version, if you don't see anything you may need to repeat the steps above as you may have missed a step.
 
-## Fork the project repositories for the week
+## Fork the project repositories for the course
 
 1. Login to your account at [github](https://github.com/login)
 2. Navigate to the following url: http://github.com/trimble-april-2017 
