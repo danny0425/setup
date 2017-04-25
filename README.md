@@ -1,38 +1,38 @@
-#Develop With Passion® - Developer BootCamp Setup
+# Develop With Passion® - Developer BootCamp Setup
 
-##The following setup should take no more than 20 minutes to complete, assuming that you are not dealing with a dial-up internet connection!
+## The following setup should take no more than 20 minutes to complete, assuming that you are not dealing with a dial-up internet connection!
 
-##Network Security Considerations
+## Network Security Considerations
 
 * Make sure that you have access to port 443 for github ssh operations (have your network admins open this up for the week if necessary, to avoid any unecessary complications) 
 
-##Programs That Should Be Installed Prior to following these instructions
+## Programs That Should Be Installed Prior to following these instructions
 
-###Required
+### Required
 * VS2013/2015 - I'm using VS 2015 Community Edition
 
-##The main programs you will be installing in this setup are:
+## The main programs you will be installing in this setup are:
 
 * Git
 * Ruby
 * MingW
 
-#Required Setup
+# Required Setup
 
 The following is the setup that you WILL need to perform to configure all necessary prerequisites to be able to enjoy the week. If you have any questions, please do not hesitate to contact [me](mailto:jp@developwithpassion.com)
 
-##Make sure that you have configured windows to show all hidden files and folders
+## Make sure that you have configured windows to show all hidden files and folders
 
-##Create the utility folder
+## Create the utility folder
 
 1. Open up windows explorer and navigate to your C:\ drive
 2. Create a new folder at the root of C:\ called utils (all lowercase). All of the tools we will install for the week will go into here.
 
-##Get setup at [Github](http://github.com)
+## Get setup at [Github](http://github.com)
 
 * [Sign up](https://github.com/signup/free) for a free account at github.com. My recommendation is to use an all lowercase username.
 
-##Install Ruby
+## Install Ruby
 
 * Install [Ruby](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe), yes the specific version in this link, not the newest.
 
@@ -43,7 +43,7 @@ The following is the setup that you WILL need to perform to configure all necess
 * Once the install has completed, verify your installation by opening up a command prompt and typing in: ruby -v. You should see:
   * ruby 2.2.6p369 [version and date information]
 
-##Install Git for windows
+## Install Git for windows
 
 1. Install the Git for windows from [here](https://github.com/git-for-windows/git/releases/download/v2.12.0.windows.1/Git-2.12.0-64-bit.exe)
 
@@ -56,7 +56,7 @@ The following is the setup that you WILL need to perform to configure all necess
 ![git_setup_part_5](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/git_setup_part_5.png)
 ![git_setup_part_4](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/git_setup_part_6.png)
 
-##Setup your git ssh authentication key
+## Setup your git ssh authentication key
 
 1. Open up a git bash prompt
 2. Enter the following command:
@@ -75,7 +75,7 @@ The following is the setup that you WILL need to perform to configure all necess
 
 ![ssh key entry](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/add_ssh_key.png)
 
-##Verify that your git ssh authentication works
+## Verify that your git ssh authentication works
 
 1. Open up a git bash prompt
 2. Enter the following command:
@@ -88,7 +88,7 @@ The following is the setup that you WILL need to perform to configure all necess
 
 ![successful authentication](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/git_authentication.png)
 
-##Clone this setup repository
+## Clone this setup repository
 
 1. Open up a git bash prompt and type the following commands:
 
@@ -101,7 +101,7 @@ git clone https://github.com:trimble-april-2017/setup.git [enter]
 
 At the completion of the last command you should have a copy of this repository on your local machine.
 
-##Install Mingw
+## Install Mingw
 
 Open up a git bash prompt and type the following commands:
 
@@ -117,7 +117,7 @@ Double click the mingw-get-inst-20111118.exe installer and install using the fol
 ![mingw_setup_part_4](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/mingw_setup_part_4.png)
 ![mingw_setup_part_5](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/mingw_setup_part_5.png)
 
-##Finalize setup
+## Finalize setup
 
 The following steps will ensure that you have your git environment setup correctly for the class. If you already have existing git configuration that you use on a regular basis, either make your changes manually to match the recommended settings, or create a backup of your existing configuration and restore it after the class.
 
@@ -155,7 +155,7 @@ This task will do the following:
 * Copies some basic bash dotfiles into your home folder, this correctly sets up the ssh agent to use the key you generated/provided earlier.
 * Configures the mingw path
 
-##Verify that your git ssh authentication works using the new config that has been created
+## Verify that your git ssh authentication works using the new config that has been created
 
 1. Open up a git bash prompt
 2. Enter the following command:
@@ -168,7 +168,7 @@ This task will do the following:
 
 ![successful authentication](https://raw.githubusercontent.com/trimble-april-2017/setup/master/images/git_authentication.png)
 
-##Verify Installs
+## Verify Installs
 
 Open up a git bash prompt and type the following:
 
@@ -177,7 +177,7 @@ ruby -v
 ```
 You should see a ruby version, if you don't see anything you may need to repeat the steps above as you may have missed a step.
 
-##Fork the project repositories for the week
+## Fork the project repositories for the week
 
 1. Login to your account at [github](https://github.com/login)
 2. Navigate to the following url: http://github.com/trimble-april-2017 
@@ -201,6 +201,6 @@ You should see a ruby version, if you don't see anything you may need to repeat 
 
 ![checked out directory](https://raw.githubusercontent.com/iqmetrix-2017/setup/master/images/checked_out_directory.png)
 
-##Finalization
+## Finalization
 
-* Last steps of setup will be completed on first day of class!
+* Follow the readme of the prep folder to finish remaining setup
